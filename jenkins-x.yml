@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-environment-jenkins-demo-mirror
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-environment-jenkins-demo-mirror
+  pipelines: {}
